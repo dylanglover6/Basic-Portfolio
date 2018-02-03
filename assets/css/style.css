@@ -20,36 +20,59 @@ a {
 }
 h1{
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    color:#ffffff
-    
+    color:#ffffff;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 h2 {
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    color:#4aaaa5
+    color: #4aaaa5;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+hr {
+    color:#cccccc;
+    height: 150%;
 }
 
 .nameBox {
     background: #4aaaa5;
-    width:20%;
-    height:60px;
+    width: 18%;
+    height: 60px;
     text-align: center;
     position: absolute;
     top: 5px;
-    left:268px;
-    padding-bottom:15px;
+    left: 275px;
+    padding-bottom: 15px;
     
 }
 
+.navbar{
+    position: absolute;
+    right: 315px;
+    word-spacing: 20px;
+}
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    text-indent: 16px;
 }
 body {
     background-image: 
         url("../images/escheresque/escheresque/escheresque.png");
     min-width: 960px;
-    margin: 0;
-    padding: 0;
+ 
     
     }
 
@@ -58,15 +81,15 @@ body {
     width:226px;
     background: #ffffff;
     border: solid #cccccc;
-    float: right;
-    position: relative;
-    top: 50px;
-    right:267px;
+    position: absolute;
+    top: 142px;
+    right:290px;
     padding:20px;
   
    
 
 }
+
 
 .githubPic, .linkedinPic, .stackPic{
     height: 70px;
@@ -88,21 +111,8 @@ body {
     padding:30px;
     font-size: 85%;
     z-index: 2
-
     
 
-
-
-}
-
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
 }
 
 
@@ -115,8 +125,7 @@ body {
     border: solid #cccccc;
     position: relative;
     top: 50px;
-    left: 267px;
-    margin-bottom: 80px;
+    left: 260px;
     padding:20px;
    
 
@@ -131,11 +140,7 @@ body {
     
 }
 
-.aboutmeText1 {
-    float: right;
-    vertical-align: top;
- 
-}
+
 
 .portfolioBox {
     float:left;
@@ -240,8 +245,10 @@ textarea {
 }
 
 placeholder {
-    color: #c1bbc1
+    color: #c1bbc1;
 }
+
+
 
 .submitButton {
     margin: 15px;
@@ -252,4 +259,12 @@ placeholder {
     font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
+.submitButton:hover {
+    background: #cccccc;
+    color: #4aaaa5
+}
+
+.submitButton:active {
+    background: #eeeeee;
+    color: #4aaaa5
 }
